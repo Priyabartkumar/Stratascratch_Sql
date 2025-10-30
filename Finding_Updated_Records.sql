@@ -4,3 +4,9 @@ select distinct id , first_name, last_name, department_id,
   max(salary) OVER (Partition by id) as salary 
   from ms_employee_salary
 order by id;
+
+//OR
+
+select distinct id , first_name, last_name, department_id, max(salary) OVER (Partition by id) as salary from ms_employee_salary
+group by id, first_name,last_name,department_id, salary
+order by id;
