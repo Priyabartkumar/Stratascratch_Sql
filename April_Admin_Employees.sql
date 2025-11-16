@@ -4,6 +4,6 @@ select count(worker_id)
 from worker
 where joining_date Between '2014-04-01' and curdate() and department = 'Admin';
 
-         /// OR
+         //OR
 
   
