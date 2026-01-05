@@ -3,7 +3,7 @@ Q)Calculate each user's average session time, where a session is defined as the 
 If there are multiple page_load or page_exit events on the same day, use only the latest page_load and the earliest page_exit. 
 Only consider sessions where the page_load occurs before the page_exit on the same day. Output the user_id and their average session time.
 
-
+//CTE is created using With 
 with loads as (
 Select user_id, Date(timestamp) as day,
  max(timestamp) as load_time
