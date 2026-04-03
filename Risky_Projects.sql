@@ -1,4 +1,4 @@
-
+Level:Medium
 ID:10304
 Question:
 You are given a set of projects and employee data. Each project has a name, a budget, and a specific duration, while each employee has an annual salary and may be assigned to one or more projects for particular periods. The task is to identify which projects are overbudget.
