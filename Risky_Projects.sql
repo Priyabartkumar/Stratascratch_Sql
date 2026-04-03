@@ -1,3 +1,5 @@
+
+ID:10304
 Question:
 You are given a set of projects and employee data. Each project has a name, a budget, and a specific duration, while each employee has an annual salary and may be assigned to one or more projects for particular periods. The task is to identify which projects are overbudget.
 A project is considered overbudget if the prorated cost of all employees assigned to it exceeds the project’s budget.To solve this, you must prorate each employee's annual salary based on the exact period they work on a given project, relative to a full year. 
