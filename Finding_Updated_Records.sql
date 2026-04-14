@@ -8,7 +8,9 @@ select distinct id , first_name, last_name, department_id,
 order by id;
 
 //OR
+#if the upper query doesn't work then run this query work
 
+  
 select distinct id , first_name, last_name, department_id, max(salary) OVER (Partition by id) as salary from ms_employee_salary
 group by id, first_name,last_name,department_id, salary
 order by id;
