@@ -7,7 +7,7 @@ For example, if an employee works on a six-month project, only half of their ann
 Your output should be a list of overbudget projects, where each entry includes the project’s name, its budget, and the total prorated employee expenses for that project. 
 The total expenses should be rounded up to the nearest dollar. Assume all years have 365 days and disregard leap years.
 
-
+Queries:
 
 select a.title,a.budget,
 ceiling(datediff(a.end_date,a.start_date)*sum(c.salary)/365) as prorated_employee_expense
