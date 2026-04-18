@@ -3,6 +3,7 @@ Identify the most engaged guests by ranking them according to their overall mess
 If two or more guests have the same number of messages, they should have the same rank. Importantly, the ranking shouldn't skip any numbers, even if many guests share the same rank. 
 Present your results in a clear format, showing the rank, guest identifier, and total number of messages for each guest, ordered from the most to least active.
 
+Query:
 Select 
   id_guest,
   DENSE_RANK() over (order by sum(n_messages) desc) as ranking,
