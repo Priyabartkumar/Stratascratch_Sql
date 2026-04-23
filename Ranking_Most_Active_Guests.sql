@@ -1,3 +1,4 @@
+Level:Medium
 Question id: 10159
 Question:
 Identify the most engaged guests by ranking them according to their overall messaging activity. The most active guest, meaning the one who has exchanged the most messages with hosts, should have the highest rank. 
