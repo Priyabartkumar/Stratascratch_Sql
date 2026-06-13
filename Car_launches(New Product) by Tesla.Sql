@@ -1,3 +1,5 @@
+Level:Easy
+
 Q)Calculate the net change in the number of products launched by companies in 2020 compared to 2019. Your output should include the company names and the net difference.(Net difference = Number of products launched in 2020 - The number launched in 2019.)
 ans)
 select company_name,SUM(year=2020) - Sum(year=2019) as total_launch 
